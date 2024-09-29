@@ -73,7 +73,7 @@ const VideoCard = ({ title, creator, avatar, thumbnail, video,ex }) => {
         </TouchableOpacity>
 
       )}
-  <Text className="text-sm text-black text-center mt-7 font-pregular">
+  <Text className="text-xl text-black text-center mt-7 font-pregular">
         {ex}
       </Text>
 

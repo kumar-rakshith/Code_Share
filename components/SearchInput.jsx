@@ -9,7 +9,7 @@ const SearchInput = ({ initialQuery }) => {
   const [query, setQuery] = useState(initialQuery || "");
 
   return (
-    <View className="flex flex-row items-center space-x-4 w-full h-16 px-4 bg-blue rounded-2xl border-2 border-black focus:border-secondary focus:broder-4">
+    <View className="flex flex-row items-center space-x-4 w-full h-16 px-4 bg-blue rounded-2xl border-2 border-black focus:border-black focus:broder-4">
       <TextInput
         className="text-base mt-0.5 text-black flex-1 font-pregular"
         value={query}

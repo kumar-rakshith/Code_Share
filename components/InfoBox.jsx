@@ -6,7 +6,7 @@ const InfoBox = ({ title, subtitle, containerStyles, titleStyles }) => {
       <Text className={`text-black text-center font-psemibold ${titleStyles}`}>
         {title}
       </Text>
-      <Text className="text-sm text-black text-center font-pregular">
+      <Text className="text-xl text-black text-center font-pregular">
         {subtitle}
       </Text>
     </View>
