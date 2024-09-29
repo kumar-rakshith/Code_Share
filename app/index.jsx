@@ -35,10 +35,10 @@ const Welcome = () => {
           />
 
           <View className="relative mt-5">
-            <Text className="text-3xl text-black font-bold text-center leading-10">
+            <Text className="text-3xl text-black  text-center leading-14"  >
               Bringing the Unseen to Light{"\n"}
               With{" "}
-              <Text className="text-prime text-4xl mt-4 ">CODE SHARE</Text>
+              <Text style={{lineHeight: 60 }} className="text-prime  font-bold text-4xl mt-4 ">CODE SHARE</Text>
             </Text>
 
             <Image
